@@ -1,0 +1,8 @@
+python -m venv .venv
+.\.venvScripts\activate    ->for activate virtualenv
+pip install nameofpackage           -> to install package
+pip uninstall nameofpackage           -> to uninstall package
+pip list        -> to see which packages are installed
+pip freeze > requirements.txt               -> to create list of all package
+pip install -r requirements.txt          -> to install all package from requirements.txt
+deactivate     ->to deactivate virtualenv
